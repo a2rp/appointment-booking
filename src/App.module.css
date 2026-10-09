@@ -1,0 +1,8 @@
+.app {
+    --header-height: 76px;
+    overflow: clip;
+
+    .sectionTarget {
+        scroll-margin-top: calc(var(--header-height) + 24px);
+    }
+}
