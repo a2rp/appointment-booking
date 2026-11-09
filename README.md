@@ -4,6 +4,12 @@
 
 Morrow is a responsive appointment request page for browsing services, choosing an available time, and reviewing booking details before confirming.
 
+## Technology stack
+
+- React 19 and Vite power the responsive single-page interface.
+- CSS Modules and React Icons provide styling and interface icons.
+- Booking request history is saved in browser local storage when available.
+
 **Live site:** [https://a2rp.github.io/appointment-booking/](https://a2rp.github.io/appointment-booking/)
 
 ## What you can do
@@ -18,6 +24,8 @@ Morrow is a responsive appointment request page for browsing services, choosing 
 ## Booking data
 
 This is a front-end demo. Booking requests are stored in the browser local storage when it is available. The app does not contact a business, send email, or reserve a real appointment. Clearing this browser data removes the saved requests.
+
+The calendar and time slots use sample availability generated in the browser; they are not connected to a live schedule.
 
 ## Run locally
 
